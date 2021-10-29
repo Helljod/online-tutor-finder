@@ -1,6 +1,6 @@
 <?php
 global $con;
-$con = mysqli_connect("127.0.0.1", "root", "", "online_tutor_portal");
+$con = mysqli_connect("remotemysql.com", "XUyajHnogN", "NzGxwArtyq", "XUyajHnogN");
 
 if (!$con) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
